@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #FFA947;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 75vh;
+}
+
+.header__title {
+  font-size: 3rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.currency {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.currency label {
+  display: inline-block;
+  margin-bottom: .5rem;
+  font-size: 1.25rem;
+}
+
+.currency input[type="number"],
+.currency select {
+  padding: .5rem;
+  font-size: 1.125rem;
+}
+
+.currency input[type="number"] {
+  margin-bottom: 1rem;
+}
+/*# sourceMappingURL=style.css.map */
