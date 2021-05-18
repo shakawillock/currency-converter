@@ -32,14 +32,14 @@ function getCurrency() {
         selectOutput.appendChild(option);
       }
 
-      selectInput.addEventListener("click", (e) => {
+      selectInput.addEventListener("change", (e) => {
         convertFromCurrency = e.target.value;
         const currencyName = data.results[convertFromCurrency].currencyName;
         inputCurrency.textContent = currencyName;
         calculateAmount(changeCurrency(convertFromCurrency, convertToCurrency));
       });
 
-      selectOutput.addEventListener("click", (e) => {
+      selectOutput.addEventListener("change", (e) => {
         convertToCurrency = e.target.value;
         const currencyName = data.results[convertToCurrency].currencyName;
         outputCurrency.textContent = currencyName;
