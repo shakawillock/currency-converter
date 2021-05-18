@@ -11,26 +11,28 @@
   <script src="main.js" defer></script>
 </head>
 <body>
-  <header class="header">
-    <h1 class="header__title">Currency Converter</h1>
-  </header>
-  <form action="#" class="currency">
-    <div class="form-group">
-      <label class="input-currency" for="currency__input-name"></label>
-      <div class="wrapper">
-        <select class="currency__input" name="currency__source-name" id="currency__input-name">
-        </select>
-        <input type="number" name="currency" class="currency__source-input" maxlength="9">
+  <div class="container">
+    <header class="header">
+      <h1 class="header__title">Currency Converter</h1>
+    </header>
+    <form action="#" class="currency">
+      <div class="form-group">
+        <label class="input-currency" for="currency__input-name"></label>
+        <div class="wrapper">
+          <select class="currency__input" name="currency__source-name" id="currency__input-name">
+          </select>
+          <input type="number" name="currency" class="currency__source-input" maxlength="9">
+        </div>
       </div>
-    </div>
-    <div class="form-group">
-      <label class="output-currency" for="currency__output-name"></label>
-      <div class="wrapper">
-        <select class="currency__output" name="currency__source-name" id="currency__output-name">
-        </select>
-        <input type="number" name="currency" class="currency__source-output" disabled>
+      <div class="form-group">
+        <label class="output-currency" for="currency__output-name"></label>
+        <div class="wrapper">
+          <select class="currency__output" name="currency__source-name" id="currency__output-name">
+          </select>
+          <input type="number" name="currency" class="currency__source-output" disabled>
+        </div>
       </div>
-    </div>
-  </form>
+    </form>
+  </div>
 </body>
 </html>

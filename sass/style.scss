@@ -14,6 +14,11 @@ body {
   height: 75vh;
 }
 
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 .header {
   &__title {
     font-size: 3rem;
@@ -41,5 +46,13 @@ body {
 
   input[type="number"] {
     margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    &__title {
+      font-size: 1.8rem;
+    }
   }
 }
